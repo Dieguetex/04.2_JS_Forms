@@ -1,0 +1,22 @@
+form small.text-muted {
+    position: relative;
+    top: -5px;
+    left: 20px;
+    background-color: gainsboro;
+    color: brown !important;
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+.hide {
+    display: none;
+}
+
+:required {
+    border: 1px solid rgb(99, 34, 34);
+}
+
+
+/*input:invalid {
+    border: 1px solid rgb(255, 0, 0);
+}*/
