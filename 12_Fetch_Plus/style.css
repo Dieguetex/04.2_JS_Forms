@@ -1,0 +1,17 @@
+div {margin: 2rem}
+p.output {
+    min-height: 3rem;
+    background-color: steelblue;
+}
+main {
+    min-height: 70vh;
+}
+footer {
+    display: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    min-height: 20vh;
+    border-top: 1px solid rgb(121, 121, 121);
+
+}
