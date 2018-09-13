@@ -2,20 +2,23 @@ function main() {
 
     function promesas() {
         return new Promise(
-            (resolve, reject) => {
-                setTimeout ( 
-                    () => {resolve()}, 3000)
+            (resolve) => {
+                setTimeout (() => resolve('Ha pasado un rato'), 3000)
             }
         )
     }
 
-    function pintar(msg) {
+
+    /* function pintar(msg) {
         console.log(msg)
     }
     
     promesas()
-    .then(pintar)
-    
+    .then(pintar */
+
+    promesas().then(
+        (response) => { console.log(response)}
+    )
     console.log('Ultima linea')
 
 

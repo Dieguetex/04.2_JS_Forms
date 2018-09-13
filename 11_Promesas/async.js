@@ -14,7 +14,7 @@ async function main() {
     
     let response
     response = await promesas()
-    
+    0
     pintar(response)
      console.log('Ultima linea')
 
