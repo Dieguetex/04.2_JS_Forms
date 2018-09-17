@@ -9,7 +9,8 @@ export class Tarea {
     renderTarea() {
         let html = `
         <li>
-        <input type="checkbox" name="isCompleta" id="isCompleta">
+        <input type="checkbox" name="isCompleta" id="isCompleta"
+        ${this.isComplete ? checked : ''}>
         <span class="nombreTarea">${this.name}</span>
         <span>🗑️</span>
         </li>
