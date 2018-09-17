@@ -1,0 +1,30 @@
+{
+  "cosas": [
+    {
+      "id": 2,
+      "title": "Lunes",
+      "author":{"name":"Diego"}
+    },
+    {
+      "title": "Martes",
+      "author": "Pepe Pérez",
+      "editorial": "Boracay",
+      "id": 3
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "tareas": [
+    {"name": "Clases curso Páginas", "isComplete": false},
+    {"name": "Reunión de trabajo", "isComplete": false}
+  ]
+  
+}
