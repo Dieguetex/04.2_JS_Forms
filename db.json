@@ -1,13 +1,15 @@
 {
-  "cosas": [
+  "articulos": [
     {
+      "author": {
+        "name": "Alejandro"
+      },
       "id": 2,
-      "title": "Lunes",
-      "author":{"name":"Diego"}
+      "title": " Todos los lunes "
     },
     {
       "title": "Martes",
-      "author": "Pepe Pérez",
+      "author": "Pepe Perez",
       "editorial": "Boracay",
       "id": 3
     }
@@ -23,8 +25,27 @@
     "name": "typicode"
   },
   "tareas": [
-    {"name": "Clases curso Páginas", "isComplete": false},
-    {"name": "Reunión de trabajo", "isComplete": false}
+    {
+      "id": 1,
+      "name": "Clases curso Paginas",
+      "isComplete": true
+    },
+    {
+      "id": 2,
+      "name": "Reunion de trabajo",
+      "isComplete": true
+    }
+  ],
+  "tareas2": [
+    {
+      "id": 1,
+      "name": "Clases curso Paginas",
+      "isComplete": true
+    },
+    {
+      "id": 2,
+      "name": "Reunion de trabajo",
+      "isComplete": false
+    }
   ]
-  
 }
