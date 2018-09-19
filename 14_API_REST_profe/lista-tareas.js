@@ -25,8 +25,8 @@ export class ListaTareas {
                         if (item.name.indexOf('Aprender') >= 0 ) { return true} 
                         else { return false }
                     }
-                ) */
-                console.dir(this.aTareas)
+                ) 
+                console.dir(this.aTareas)*/
 
                 this.renderLista()
             },
