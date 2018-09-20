@@ -1,8 +1,8 @@
-import { listaTareas } from "./lista-tareas.js";
+import { ListaTareas } from "./lista-tareas.js";
 
 export class Index {
     constructor() {
-        console.log('Creado Index');
-        new listaTareas()
+        new ListaTareas()
     }
+    
 }

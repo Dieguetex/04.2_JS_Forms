@@ -26,11 +26,6 @@
   },
   "tareas": [
     {
-      "id": 1,
-      "name": "Clases curso Paginas",
-      "isComplete": false
-    },
-    {
       "id": 2,
       "name": "Reunion de trabajo",
       "isComplete": false
