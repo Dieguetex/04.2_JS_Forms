@@ -34,10 +34,14 @@ export class Tarea {
             'bubbles': true}))
     }
 
+
+    //el custom event tiene la propiedad detail donde podemos meter lo que nos interese
     sendChecked () {
-        this.nodoTarea.dispatchEvent(new Event('ckeckCompleta', {
-            'bubbles': true
+        this.nodoTarea.dispatchEvent(new CustomEvent('ckeckCompleta', {
+            'bubbles': true,
+            detail: {autor: 'Alejandro'}
         })) 
     }
+
 
 }

@@ -10,7 +10,7 @@ export class PageController {
         this.pageTitle = (page) ? this.appTitle + ' | ' + page : this.appTitle
         this.title = title || this.appTitle
         this.contentFooter = {
-                autor: 'Alejandro Cerezo',
+                autor: 'Diego Pérez',
                 empresa: 'CAS Training',
                 lugar: 'Getafe - 2018'
             }
