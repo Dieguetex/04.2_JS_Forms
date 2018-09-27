@@ -14,10 +14,11 @@ export class SaludoComponent implements OnInit {
 
   ngOnInit() {
     this.nombre = 'Pepe'
-    this.nombre1 = "Juan"
+    this.nombre1 = 'Juan'
   }
 
   btnBorrar() {
     this.nombre = ''
+    this.nombre1 = ''
   }
 }
