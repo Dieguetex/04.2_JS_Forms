@@ -7,16 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SaludoComponent implements OnInit {
 
+  nombre: string
+  nombre1: string
+
   constructor() { }
 
-  nombre: string
   ngOnInit() {
     this.nombre = 'Pepe'
+    this.nombre1 = "Juan"
   }
 
   btnBorrar() {
-    console.log('HOLA')
     this.nombre = ''
   }
-
 }
