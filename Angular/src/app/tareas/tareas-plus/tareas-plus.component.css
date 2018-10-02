@@ -1,0 +1,15 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+/*  li button {
+    margin-left: 20rem;
+ } */
+
+.wrapper div span {
+    margin-left: 0.5rem;
+}
+
+.completada {
+    text-decoration: line-through
+}
