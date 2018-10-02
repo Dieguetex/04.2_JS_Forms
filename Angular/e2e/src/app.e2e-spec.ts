@@ -30,11 +30,11 @@ describe('Tareas', ()=>{
 
   it('should display "Proyecto" in h1', () => {
     tareasPage.navigateTo();
-    expect(tareasPage.getTitleText()).toContain('Angular');
+    expect(tareasPage.getTitleText()).toContain('Proyecto');
   });
-
+  
   it('should display "Getafe" in footer', () => {
     tareasPage.navigateTo();
-    expect(tareasPage.getFooterText()).toContain('Getafe');
+    expect(tareasPage.getFooterText()).toContain('CAS');
   });
 })

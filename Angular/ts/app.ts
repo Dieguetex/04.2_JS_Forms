@@ -1,3 +1,4 @@
+
 interface Direccion {
     calle: string
     poblacion: string
@@ -31,8 +32,10 @@ class Usuario {
 
 
 }
-let user1: Usuario = new Usuario('Pepe', 'Perez', 34,
-    {calle: 'pez', poblacion: 'Teruel' })
+
+let o = {calle: 'Pez', poblacion: 'Teruel'}
+let user1: Usuario = new Usuario('Pepe', 'Perez',  34,
+            o)
 
 user1.crecer()
 user1.saludar()
