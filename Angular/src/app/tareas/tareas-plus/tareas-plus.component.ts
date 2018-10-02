@@ -7,9 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TareasPlusComponent implements OnInit {
 
-  constructor() { }
+  titulo: string
+  rutaGoogle: string
+
+  constructor() { 
+   
+  }
 
   ngOnInit() {
+     this.titulo = 'Lista plusssss'
+     this.rutaGoogle = 'https://www.google.es'
   }
 
 }
