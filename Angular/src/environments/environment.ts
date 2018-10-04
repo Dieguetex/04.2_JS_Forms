@@ -4,7 +4,9 @@
 
 export const environment = {
   production: false,
-  url_api : 'localhost:3000'
+  url_api : 'localhost:3000',
+  /* api_users: 'https://gateway.marvel.com:443/v1/public/characters?orderBy=name&apikey=7a9ada872a2e51a39063e6058752f103' */
+  api_users : 'https://randomuser.me/api?results=10'
 };
 
 /*
