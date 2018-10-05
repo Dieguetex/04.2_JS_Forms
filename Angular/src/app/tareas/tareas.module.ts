@@ -16,7 +16,7 @@ import { FormsModule } from '@angular/forms';
   declarations: [
     TareasComponent,
     TareasSimpleComponent,
-    TareasPlusComponent
+    TareasPlusComponent,
   ],
   entryComponents: [TareasComponent]
 })
