@@ -5,9 +5,8 @@ import { HttpClientModule } from '@angular/common/http';
 
 describe('UsuariosService', () => {
   beforeEach(() => TestBed.configureTestingModule({
-    providers: [UsuariosService,
-    HttpClientModule],
-    imports:[HttpClientModule],
+    imports: [HttpClientModule],
+    providers: [UsuariosService]
   }));
 
   it('should be created', () => {
