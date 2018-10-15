@@ -13,7 +13,8 @@ export class UsuariosService {
   
   constructor(public http: HttpClient) { 
     this.aContactos = []
-    this.url = environment.api_users
+    //this.url = environment.api_users
+    this.url = 'https://randomuser.me/api?results=10'
   }
 
   getLista(): Promise<Array<ContactoIf>>{
