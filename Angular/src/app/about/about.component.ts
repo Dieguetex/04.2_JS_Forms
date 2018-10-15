@@ -9,7 +9,9 @@ export class AboutComponent implements OnInit {
   empresa: string
   cliente: Object
 
-  constructor() { }
+  constructor() {
+
+  }
 
   ngOnInit() {
     this.empresa = 'CAS'
